@@ -1,0 +1,11 @@
+* Tue Apr 26 2011 Zhao Juan <juan.j.zhao@intel.com> - 1.1.10
+- Update the default cursor theme to meego(Bug#16701)
+
+* Thu Jun 24 2010 Li Peng <peng.li@intel.com> - 1.1.10
+- Add %doc for man pages
+
+* Fri Dec 11 2009 Li Peng <peng.li@intel.com> 1.1.10
+- libXcursor 1.10
+
+* Thu Dec 04 2008 Arjan van de Ven <arjan@linux.intel.com> 1.1.9
+- Clean up the specfile
