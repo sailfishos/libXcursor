@@ -1,8 +1,0 @@
-<package project="Mer:Trunk:Base" name="libXcursor">
-  <title>X.Org X11 libXcursor runtime library</title>
-  <description>X.Org X11 libXcursor runtime library
-
-
-</description>
-  <url>http://www.x.org</url>
-</package>
