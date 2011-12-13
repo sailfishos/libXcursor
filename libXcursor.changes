@@ -1,3 +1,6 @@
+* Tue Dec 13 2011 Marko Saukko <marko.saukko@cybercom.com> - 1.1.12
+- Update libXcursor to version 1.1.12
+
 * Tue Apr 26 2011 Zhao Juan <juan.j.zhao@intel.com> - 1.1.10
 - Update the default cursor theme to meego(Bug#16701)
 

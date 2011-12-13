@@ -1,6 +1,6 @@
 Name: libXcursor
 Summary: X.Org X11 libXcursor runtime library
-Version: 1.1.10
+Version: 1.1.12
 Release: 1
 Group: System/Libraries
 License: MIT
@@ -9,21 +9,20 @@ Sources:
     - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
 ExtraSources:
     - index.theme;%{_datadir}/icons/default/
-Description: X.Org X11 libXcursor runtime library
+Description: X.Org X11 libXcursor runtime library.
 
-PkgBR:
-    - xorg-x11-util-macros
 PkgConfigBR:
     - xproto
     - x11
     - xfixes
     - xrender
+    - xorg-macros
 Configure: configure
 SubPackages:
     - Name: devel
       Summary: X.Org X11 libXcursor development package
       Group: Development/Libraries
-      Description: X.Org X11 libXcursor development package
+      Description: X.Org X11 libXcursor development package.
       Requires:
           - pkgconfig
 
