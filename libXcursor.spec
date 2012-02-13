@@ -16,8 +16,6 @@ Source0:    http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{versio
 Source1:    index.theme
 Source100:  libXcursor.yaml
 Requires(post): /sbin/ldconfig
-Requires(post): /bin/touch
-Requires(post): %{_bindir}/gtk-update-icon-cache
 Requires(postun): /sbin/ldconfig
 BuildRequires:  pkgconfig(xproto)
 BuildRequires:  pkgconfig(x11)
@@ -69,17 +67,9 @@ cp -a %{SOURCE1} %{buildroot}%{_datadir}/icons/default/
 
 
 
-%post
-/sbin/ldconfig
-/bin/touch --no-create %{_datadir}/icons/hicolor || :
-%{_bindir}/gtk-update-icon-cache \
-  --quiet %{_datadir}/icons/hicolor 2> /dev/null|| :
+%post -p /sbin/ldconfig
 
-%postun
-/sbin/ldconfig
-/bin/touch --no-create %{_datadir}/icons/hicolor || :
-%{_bindir}/gtk-update-icon-cache \
-  --quiet %{_datadir}/icons/hicolor 2> /dev/null|| :
+%postun -p /sbin/ldconfig
 
 
 

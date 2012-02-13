@@ -17,7 +17,7 @@ PkgConfigBR:
     - xfixes
     - xrender
     - xorg-macros
-Configure: configure
+NoIconCache: true
 SubPackages:
     - Name: devel
       Summary: X.Org X11 libXcursor development package

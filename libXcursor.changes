@@ -1,3 +1,6 @@
+* Mon Feb 13 2012 Marko Saukko <marko.saukko@gmail.com> - 1.1.12
+- Fixes MER#172: libXcursor deps on gtk-update-icon-cache
+
 * Tue Dec 13 2011 Marko Saukko <marko.saukko@cybercom.com> - 1.1.12
 - Update libXcursor to version 1.1.12
 
