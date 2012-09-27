@@ -1,3 +1,6 @@
+* Thu Sep 27 2012 Siteshwar Vashisht <siteshwar@gmail.com> - 1.1.13
+- Fixes MER#451: Update to version 1.1.13
+
 * Mon Feb 13 2012 Marko Saukko <marko.saukko@gmail.com> - 1.1.12
 - Fixes MER#172: libXcursor deps on gtk-update-icon-cache
 
